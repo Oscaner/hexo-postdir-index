@@ -1,0 +1,9 @@
+{
+  "name": "hexo-postdir-index",
+  "description": "Add support for friendly post directory list",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/Oscaner/hexo-postdir-index",
+  "author": "Oscaner",
+  "license": "MIT"
+}
