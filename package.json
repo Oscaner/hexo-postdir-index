@@ -2,8 +2,28 @@
   "name": "hexo-postdir-index",
   "description": "Add support for friendly post directory list",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "index",
   "repository": "https://github.com/Oscaner/hexo-postdir-index",
   "author": "Oscaner",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://www.oscaner.com",
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "generator",
+    "hexo-postdir-index"
+  ],
+  "dependencies": {
+    "lodash.findindex": "^4.6.0"
+  }
 }
